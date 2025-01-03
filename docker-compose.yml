@@ -1,0 +1,7 @@
+services:
+  fastapi-quickstart:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3100:8000"
